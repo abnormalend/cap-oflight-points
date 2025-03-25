@@ -172,3 +172,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# Ignore any CSV or TXT files that may contain cadet information.
+# This is sensitive information and should not be shared.
+*.csv
+*.txt
